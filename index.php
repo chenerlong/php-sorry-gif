@@ -76,7 +76,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 						<div class="mdui-col-md-4">
 							<?php if ($value['preview_image'] == 'false') : ?>
 								<div class="mdui-card">
-								  <div class="mdui-card-content"><h3>没有预览图哦</h4>子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」</div>
+								  <div class="mdui-card-content"><h3>没有预览图哦</h3>子曰：「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」</div>
 								</div>
 							<?php else : ?>
 								<div class="mdui-card">
