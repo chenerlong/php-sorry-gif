@@ -98,7 +98,7 @@ $INDEX = require_once __DIR__.'/templates/index.php';
 								</div>
 							<?php endfor; ?>
 
-							<?php if(DEFAULT_CREATE_SMALL_GIF === false) : ?>
+							<?php if(DEFAULT_CREATE_SMALL_GIF === true) : ?>
 								<?php if($value['small']  == true): ?>
 									<label class="mdui-checkbox">
 										<input id="<?php echo $value['template_name']; ?>-small-size" type="checkbox" value="true" checked/>
